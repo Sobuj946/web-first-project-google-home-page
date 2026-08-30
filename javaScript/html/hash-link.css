@@ -1,0 +1,29 @@
+/* a{
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+    background-color: white;
+
+} */
+h1:nth-child(3){
+    /* psudo class */
+    color:blue;
+    border: 1px solid black;
+}
+h1:first-child{
+    /* psudo class */
+    color: blueviolet;
+    background-color: black;
+}
+/* psudo element */
+p::first-letter{
+    color: red;
+    font-size: 50px;
+}
+p::first-line{
+    color: red;
+}
+h1::before{
+    content: url(/javaScript/html/image.jpg);
+}

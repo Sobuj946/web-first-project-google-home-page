@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice DOM</title>
+</head>
+
+<body>
+    <button>button</button>
+    <button class="js-button">Enter</button><br>
+
+    <button onclick="
+    result='heads';
+   display();
+   
+    ">heads</button>
+
+
+    <button onclick="
+    result='tails';
+     display();
+    ">tails</button>
+    <p class="js-display"></p>
+    <script>
+        let result = '';
+        function display() {
+
+            document.querySelector('.js-display').innerHTML = `You chose : ${result}`;
+
+        }
+        console.log(document.querySelector('button'));
+        document.querySelector('.js-button').innerHTML = 'changed';
+
+
+    </script>
+</body>
+
+</html>

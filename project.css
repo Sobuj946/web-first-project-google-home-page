@@ -1,0 +1,206 @@
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f1f1f1;
+            margin: 0;
+            padding: 20px;
+        }
+
+        p {
+            line-height: 1.8;
+        }
+
+        h1 {
+            text-align: center;
+            /* margin-top: 10%; */
+        }
+
+        header {
+            font-size: 35px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            margin: 30px 0;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+
+        .button-home {
+            background: #04AA6D;
+            color: white;
+            border: none;
+            border-radius: 8px;
+        }
+
+        .button-home::before {
+            content: "❮";
+
+        }
+
+        .main-container {
+            display: flex;
+            gap: 30px;
+            max-width: 1200px;
+            margin: 40px auto;
+        }
+
+
+
+        .button-next::after {
+            content: "❯";
+            size-adjust: 20px;
+        }
+
+
+        .button-next,
+        .button-learn {
+            background-color: #04AA6D;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 10px;
+        }
+
+        .button-learn::after {
+            content: "❯";
+            font-size: 16px;
+        }
+
+
+        .define,
+        .certificate {
+            flex: 1;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .certificated {
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 12px;
+            padding: 2%;
+            margin-top: 10px;
+            text-align: center;
+            height: 70px;
+            font-size: 0.5;
+            width: 200px;
+
+        }
+
+        .certificated p {
+            font-size: 3.75px;
+            margin: 4px 0;
+            line-height: 1px;
+        }
+
+        .certificated h4 {
+            font-size: 1.5px;
+            margin: 4px 0;
+            padding: 0px;
+            color: #04AA6D;
+        }
+
+        .certificated h3 {
+            font-size: 5px;
+            margin: 4px 0;
+            color: #04AA6D;
+            margin: 6px 0;
+            padding: 1px;
+            padding-bottom: 1px;
+        }
+
+        .cert-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            margin-top: auto;
+            padding: 10px;
+        }
+
+        .button-get {
+            display: flex;
+            background-color: #04AA6D;
+            text-align: left;
+            border-radius: 10px;
+            margin-right: 10px;
+            align-items: center;
+            gap: 30px;
+
+
+        }
+
+        .button-get::after {
+            content: "❯";
+            font-size: 16px;
+        }
+
+        .identity {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .sign-in-container {
+            display: flex;
+            justify-content: center;
+            padding: px;
+            text-align: 10px;
+
+        }
+
+        .autho-button {
+
+            padding: 10px;
+            justify-content: center;
+
+        }
+
+        .button-f {
+            background-color: #1877F2;
+            border-radius: 25px;
+            color: white;
+            cursor: pointer;
+        }
+
+        .button-g {
+            background-color: white;
+            border-radius: 25px;
+            color: #4285F4;
+            cursor: pointer;
+        }
+
+        .button-git {
+            background-color: white;
+            border-radius: 30px;
+            color: black;
+            cursor: pointer;
+        }
+
+        .button-sign {
+            cursor: pointer;
+            background-color: #f1f1f1;
+        }
+        .example-first{
+            display: flex;
+            box-shadow: #92aace;
+            justify-content: space-between;
+        }
+        .my-box{
+            background-color: #c5bcbca1;
+            width: 500px;
+            height: 57px;
+            text-align: center;
+            box-shadow: #cdc5c5;
+        }

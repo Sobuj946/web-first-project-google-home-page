@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object</title>
+</head>
+
+<body>
+    <script>
+        /* const product = {
+             name: 'Socks',
+             price: 200
+         };
+         console.log(typeof product);
+         console.log(product);
+         console.log(product.name);
+         console.log(product.price);
+         product.name = 'cotton socks';
+         console.log(product.name);
+         product.newProperty = true;
+         console.log(product);
+         delete product.newProperty;
+         console.log(product);*/
+        /*
+        const product2={
+            name:'Shirt',
+            'delivary-time':'1 day',
+            //another object
+            rating:{
+                count:20,
+                stars:24
+            },
+            //object function
+            fun:function function1 (){
+                console.log("Function inside object.");
+            }
+        };
+        console.log(product2)
+        console.log(product2.name);
+        console.log(product2['name'])
+        console.log(product2['delivary-time'])
+        console.log(product2.rating.count)
+        product2.fun
+        console.log(JSON.stringify(product2));
+        jsonString=JSON.stringify(product2);
+        console.log(JSON.parse(jsonString))
+        */
+        console.log('hello'.length);
+        console.log('hello'.toUpperCase());
+        const obj = {
+            message: 'Hello'
+        };
+        const obj1 = {
+            message: 'Good job'
+        };
+        const obj2 = obj;//referances
+
+        console.log(obj1)
+        console.log(obj)
+        console.log(obj)
+        console.log(obj === obj1)
+        console.log(obj === obj2)
+        const obj3 = {
+            message: 'Good job'
+        };
+        // const message=obj3.message;
+        //or
+        const { message } = obj3;//destructuring
+        console.log(message);
+        const obj4 = {
+            // message: message
+            //shorthand method
+            message,
+            // method:function function1(){
+            //     console.log('Method');
+            // }
+
+            method() {
+                console.log('Method');
+            }
+        };
+
+        console.log(obj4);
+        console.log(obj4.method())
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+a{
+    color:blue;
+    text-decoration: none;
+    background-color:green ;
+    text-align: center;
+    font-size: 50px;
+    padding: 5px 10px;
+    border: 2px solid black;
+}
+a:hover{
+    color: white;
+    background-color:yellow;
+}
+a:active{
+    color: yellow;
+}
+a:visited{
+    color: tomato;
+    background-color: greenyellow;
+}

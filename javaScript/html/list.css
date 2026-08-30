@@ -1,0 +1,12 @@
+ul{
+    color: blueviolet;
+    /* list-style-type:lower-roman;
+     */
+     /* list-style-type: circle;  */
+     /* list-style-type: disc; */
+     /* list-style-type: lower-alpha; */
+     /* list-style-type:upper-alpha; */
+     /* list-style-type: decimal; */
+     /* list-style-image: url('D:/Project Development/javaScript/paper-emoji.png'); */
+    list-style: square inside url(/javaScript/paper-emoji.png);
+}

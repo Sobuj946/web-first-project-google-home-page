@@ -1,0 +1,13 @@
+h1{
+    color: blue;
+    opacity: .5;
+
+}
+h2{
+    color: rgb(255, 99, 711);
+}
+.d{
+    height: 400px;
+    width: 400px;
+    background: radial-gradient(red ,green);
+}

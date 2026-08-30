@@ -1,0 +1,44 @@
+.img1{
+    width: 500px;
+    height: 200px;
+    /* float: right; */
+    /* clear: both; */
+    float: right;
+}
+.img2{
+    width: 500px;
+    height: 200px;
+    /* float: right; */
+    /* clear: both; */
+    float: left;
+}
+p{
+    clear:both;
+    /* clear:both; */
+    /* clear: right; */
+    /* clear kore dibe right theke seta niche chole asbe */
+}
+div{
+    float: left;
+}
+
+.box1{
+    width: 300px;
+    height: 200px;
+    background-color: red;
+}
+.box2{
+    width: 300px;
+    height: 200px;
+    background-color: black;
+}
+.box3{
+    width: 300px;
+    height: 200px;
+    background-color: green;
+}
+.box4{
+    width: 300px;
+    height: 200px;
+    background-color: yellow;
+}

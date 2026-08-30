@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Quantity Project</title>
+</head>
+<body>
+    <button onclick="
+        displayQuantity();
+        ">Show Quantity</button>
+    <button onclick="
+    count+=1;
+    ">Add to Cart</button>
+    <button onclick="
+    count+=2;
+    ">+2</button>
+    <button onclick="
+    count+=3;
+    ">+3</button>
+    <button onclick="
+    count+=4;
+    ">+4</button>
+    <button onclick="
+    count+=5;
+    ">+5</button>
+    <button onclick="
+    count=0;
+    ">Remove from Cart</button>
+    <button onclick="
+    if(count<0)
+{
+    document.querySelector('.js-click').innerHTML=`cannot remove`;
+}else{
+    count-=2;
+}
+    ">-2</button>
+    <button onclick="
+    if(count<0){
+    document.querySelector('.js-click').innerHTML=`cannot remove`;
+    
+    }else{
+        count-=3;
+    }
+    ">-3</button>
+    <p class="js-click"></p>
+    <script>
+       let count=0;
+       function displayQuantity(){
+        document.querySelector('.js-click').innerHTML=`Cart quantity: ${count}`;
+       }
+    </script>
+    
+</body>
+</html>

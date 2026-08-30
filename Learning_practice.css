@@ -1,0 +1,25 @@
+div{
+    color: rgb(13, 82, 70);
+    margin: 50px;
+   /* box-shadow: horizontal-offset vertical-offset blur-radius spread
+radius color; */
+box-shadow: 3px 3px 5px #9b6767;
+}
+table{
+    border-collapse: collapse;
+    background-color: white;
+      height: 120px;
+    width:800px;
+}
+th,td{
+    border:  2px solid black;;
+    padding: 10px;
+    /* text-combine-upright: calc(2); */
+    text-align: center;
+    width: 50px;
+    height: 100%;
+   
+}
+th {
+    background-color: #cbe5b7; /* Makes the header row visually distinct */
+}

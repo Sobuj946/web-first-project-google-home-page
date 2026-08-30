@@ -1,0 +1,27 @@
+/* .sobuj{
+    width: 200px;
+    height: 200px;
+    margin-top:80px  ;
+    background-color: rgb(49, 245, 144);
+    border: 2px solid red;
+    margin-left: 50px;
+} */
+
+#sob{
+    width: 400px;
+    height: 300px;
+    border: 6px solid black;
+    /* margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 100px; */
+    background-color: black;
+    /* margin: 100px 200px ; */
+    margin: auto;
+    /* padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-right: 30px; */
+    padding: 20px 20px 40px 40px;
+    color: white;
+
+}

@@ -1,0 +1,39 @@
+.box1{
+    width: 500px;
+    height:300px ;
+    background-color: green;
+    /* margin: auto; */
+    position: relative;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    position: absolute;
+    border-radius: 50%;
+}
+.name{
+    border: 1px solid black;
+    background-color: black;
+    color: red;
+    position: sticky;
+    /* sticky er sathe top value add kora lagbe
+    sticky use kora hoy akjaygay vlaue ta dekhanor jonno
+    
+    */
+    top: 0px;
+
+
+}
+p{
+    padding-bottom: 600px;
+}

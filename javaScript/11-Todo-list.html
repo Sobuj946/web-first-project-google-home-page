@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+</head>
+
+<body>
+    <p>Todo List Pracitce 1</p>
+    <input type="text" placeholder="Todo name " class="input">
+    <button onclick="
+        addTodo(); 
+    ">Add</button>
+
+
+
+    <p>Todo List Practice 2</p>
+    <input type="text" placeholder="Todo name" class="input-second">
+    <button onclick="
+    addTodoSecond();
+    ">Add</button>
+    <p class="js-display-todo"></p>
+    <script>
+        //First version of todo list
+        const TodoList = [];
+        function addTodo() {
+
+            const inputElement = document.querySelector('input');
+            let name = inputElement.value;
+            TodoList.push(name);
+            console.log(TodoList);
+            document.querySelector('input').value = '';
+        }
+
+        //Second version
+       
+        function addTodoSecond()
+        {
+             const TodoList1=[];
+            const inputElement1=document.querySelector('.input-second');
+            let name=inputElement1.value;
+            if(name!==''){
+            TodoList1.push(name);
+           
+            console.log(TodoList1);
+            }
+            
+            for(let i=0;i<TodoList1.length;i++)
+            {
+                document.querySelector('.js-display-todo').innerHTML=TodoList1[i];
+                console.log(TodoList1[i]);
+            }
+            inputElement1.value='';
+             
+        }
+
+    </script>
+</body>
+
+</html>

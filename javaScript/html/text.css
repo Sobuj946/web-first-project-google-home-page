@@ -1,0 +1,17 @@
+
+.text {
+    color: red;
+    display: inline-block;
+    background-color: black;
+}
+p{
+    height: 500px;
+    width: 500px;
+    background-color: red;
+    padding: 30px 20px 20px 20px;
+    color: blueviolet;
+    letter-spacing: 2px;
+    word-spacing: normal;
+    text-transform: capitalize;
+    text-align: justify;
+}

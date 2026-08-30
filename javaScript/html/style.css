@@ -1,0 +1,18 @@
+marquee {
+    color: rgb(229, 241, 230);
+}
+
+h1 {
+    background-color: rgb(2, 15, 3);
+    color: rgb(225, 239, 208);
+    
+    width: fit-content;
+    text-align: center;
+    margin: 0 auto;
+}
+
+body {
+    background-color: rgba(21, 24, 40, 0.155);
+    background-image: url(image1.webp);
+    background-repeat: no-repeat;
+}

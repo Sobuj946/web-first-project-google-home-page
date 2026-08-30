@@ -1,0 +1,24 @@
+h1 {
+    /* text-align: center; */
+    display: inline-block;
+    /* Display dia inline block e ante pari  and display
+    dia kono likhake vanish korte pari
+    */
+}
+
+p {
+    /* text-align: center; */
+    /* This is block element */
+}
+
+span {
+    /* text-align: center;  inline element cannot be a  center */
+    /* display: block; */
+    display: inline-block;
+    /* text-align: center; */
+}
+ul li{
+    display: inline-block;
+    /* list k ak line e korar jonno inline block use 
+    kora hoy */
+}
